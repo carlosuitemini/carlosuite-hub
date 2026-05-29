@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operations — Carlosuite | AdVista Creations</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="site-container">
+        <!-- Navigation -->
+        <header class="header">
+            <div class="header-inner">
+                <div class="logo">
+                    <span class="logo-main">Carlosuite</span>
+                    <span class="logo-sub">AdVista Creations</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="operations.html" class="nav-link active">Operations</a>
+                    <a href="intel.html" class="nav-link">Intel</a>
+                    <a href="start.html" class="nav-link">Start Project</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Page Header -->
+            <section class="page-header">
+                <div class="container container-narrow">
+                    <h1>Operations</h1>
+                    <p class="header-desc">Client onboarding systems, policies, communication scripts, and project management tools.</p>
+                </div>
+            </section>
+
+            <!-- Client Onboarding System -->
+            <section class="onboarding-system">
+                <div class="container container-narrow">
+                    <h2>Client Onboarding System</h2>
+                    <div class="onboarding-steps">
+                        <div class="step">
+                            <div class="step-number">01</div>
+                            <div class="step-content">
+                                <h3>Initial Inquiry</h3>
+                                <p>Every new client must provide: Full Name, Business Name, Phone, Email, Project Type, Description, Deadline, Inspiration, Budget Range.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">02</div>
+                            <div class="step-content">
+                                <h3>Discovery Process</h3>
+                                <p>Understand project goals, clarify scope, identify deliverables, explain workflow, revisions policy, timelines, and pricing.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">03</div>
+                            <div class="step-content">
+                                <h3>Client Approval</h3>
+                                <p>Deposit must be paid. Scope approved. Timeline confirmed. Deliverables confirmed. No project begins before deposit confirmation.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">04</div>
+                            <div class="step-content">
+                                <h3>Project Activation</h3>
+                                <p>Create project folder, create project board entry, gather assets, schedule work blocks, send confirmation message, begin first draft.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Stages Tracker -->
+            <section class="project-tracker">
+                <div class="container container-narrow">
+                    <h2>Project Stages Tracker</h2>
+                    <p>Click on any stage to mark as completed. Your progress is saved automatically.</p>
+                    
+                    <div class="tracker-container">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" id="stageProgress" style="width: 0%;"></div>
+                        </div>
+                        <div class="progress-percentage" id="progressPercent">0%</div>
+                        
+                        <div class="stages-grid">
+                            <div class="stage-item" data-stage="1">
+                                <span class="stage-num">1</span>
+                                <span class="stage-name">New Inquiry</span>
+                            </div>
+                            <div class="stage-item" data-stage="2">
+                                <span class="stage-num">2</span>
+                                <span class="stage-name">Discovery</span>
+                            </div>
+                            <div class="stage-item" data-stage="3">
+                                <span class="stage-num">3</span>
+                                <span class="stage-name">Proposal Sent</span>
+                            </div>
+                            <div class="stage-item" data-stage="4">
+                                <span class="stage-num">4</span>
+                                <span class="stage-name">Awaiting Deposit</span>
+                            </div>
+                            <div class="stage-item" data-stage="5">
+                                <span class="stage-num">5</span>
+                                <span class="stage-name">In Progress</span>
+                            </div>
+                            <div class="stage-item" data-stage="6">
+                                <span class="stage-num">6</span>
+                                <span class="stage-name">Awaiting Feedback</span>
+                            </div>
+                            <div class="stage-item" data-stage="7">
+                                <span class="stage-num">7</span>
+                                <span class="stage-name">Revision Stage</span>
+                            </div>
+                            <div class="stage-item" data-stage="8">
+                                <span class="stage-num">8</span>
+                                <span class="stage-name">Finalization</span>
+                            </div>
+                            <div class="stage-item" data-stage="9">
+                                <span class="stage-num">9</span>
+                                <span class="stage-name">Awaiting Balance</span>
+                            </div>
+                            <div class="stage-item" data-stage="10">
+                                <span class="stage-num">10</span>
+                                <span class="stage-name">Delivered</span>
+                            </div>
+                            <div class="stage-item" data-stage="11">
+                                <span class="stage-num">11</span>
+                                <span class="stage-name">Retainer Client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Client Policies -->
+            <section class="client-policies">
+                <div class="container container-narrow">
+                    <h2>Client Policies</h2>
+                    
+                    <div class="policies-accordion">
+                        <div class="policy-item">
+                            <div class="policy-header">
+                                <h3>Payment Policy</h3>
+                                <span class="toggle-icon">▼</span>
+                            </div>
+                            <div class="policy-content">
+                                <p><strong>Standard Payment Structure:</strong> 70% deposit before work begins | 30% before final delivery</p>
+                                <p><strong>For smaller projects:</strong> 100% upfront may apply</p>
+                            </div>
+                        </div>
+                        
+                        <div class="policy-item">
+                            <div class="policy-header">
+                                <h3>Revision Policy</h3>
+                                <span class="toggle-icon">▶</span>
+                            </div>
+                            <div class="policy-content">
+                                <p>Each package includes a limited number of revisions.</p>
+                                <p><strong>Revision includes:</strong> Minor adjustments, color changes, font adjustments, layout refinements, small modifications.</p>
+                                <p><strong>Revision does NOT include:</strong> Complete redesign, new creative direction, new concept development, additional deliverables outside agreed scope.</p>
+                                <p><strong>Additional revisions beyond package limits:</strong> $10 per revision</p>
+                            </div>
+                        </div>
+                        
+                        <div class="policy-item">
+                            <div class="policy-header">
+                                <h3>Approval Policy</h3>
+                                <span class="toggle-icon">▶</span>
+                            </div>
+                            <div class="policy-content">
+                                <p>Once a design concept is approved, major changes become billable. New concepts require additional payment. Timeline extensions may apply.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="policy-item">
+                            <div class="policy-header">
+                                <h3>Communication Policy</h3>
+                                <span class="toggle-icon">▶</span>
+                            </div>
+                            <div class="policy-content">
+                                <p><strong>Official channels:</strong> Email, WhatsApp Business, Scheduled meetings</p>
+                                <p><strong>Business hours:</strong> Monday – Saturday | 8:00 AM – 7:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="policy-item">
+                            <div class="policy-header">
+                                <h3>Refund Policy</h3>
+                                <span class="toggle-icon">▶</span>
+                            </div>
+                            <div class="policy-content">
+                                <p>Deposits are non-refundable once work has commenced.</p>
+                                <p>Refunds will not apply for: Change of mind, delayed responses from client, scope changes, approved concepts.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="policy-item">
+                            <div class="policy-header">
+                                <h3>File Delivery Policy</h3>
+                                <span class="toggle-icon">▶</span>
+                            </div>
+                            <div class="policy-content">
+                                <p>Final files are delivered after full payment.</p>
+                                <p>Deliverables may include: PNG, JPG, PDF, SVG, Source files (if included in package).</p>
+                            </div>
+                        </div>
+                        
+                        <div class="policy-item">
+                            <div class="policy-header">
+                                <h3>Turnaround Policy</h3>
+                                <span class="toggle-icon">▶</span>
+                            </div>
+                            <div class="policy-content">
+                                <p>Project timelines depend on scope, complexity, client responsiveness, and revision rounds.</p>
+                                <p><strong>Rush projects attract additional charges.</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Script Generator Tool -->
+            <section class="script-generator">
+                <div class="container container-narrow">
+                    <h2>Client Communication Scripts</h2>
+                    <p>Generate professional scripts instantly. Copy and paste to WhatsApp or Email.</p>
+                    
+                    <div class="generator-box">
+                        <div class="generator-controls">
+                            <div class="form-group">
+                                <label for="scriptType">Script Type</label>
+                                <select id="scriptType" class="script-select">
+                                    <option value="inquiry">Inquiry Response</option>
+                                    <option value="deposit">Deposit Confirmation</option>
+                                    <option value="revision">Revision Boundary</option>
+                                    <option value="delay">Delay Update</option>
+                                    <option value="delivery">Final Delivery</option>
+                                    <option value="outreach">Outreach Script</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="clientName">Client Name</label>
+                                <input type="text" id="clientName" class="client-input" placeholder="Enter client name">
+                            </div>
+                            <button id="generateScriptBtn" class="btn-primary">Generate Script</button>
+                        </div>
+                        
+                        <div class="script-output-container">
+                            <textarea id="scriptOutput" class="script-textarea" placeholder="Your script will appear here..." readonly></textarea>
+                            <button id="copyScriptBtn" class="btn-secondary copy-btn">Copy to Clipboard</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Daily Workflow Structure -->
+            <section class="daily-workflow">
+                <div class="container container-narrow">
+                    <h2>Daily Workflow Structure</h2>
+                    
+                    <div class="workflow-grid">
+                        <div class="workflow-card">
+                            <h3>Morning</h3>
+                            <ul>
+                                <li>Admin work</li>
+                                <li>Client responses</li>
+                                <li>Scheduling</li>
+                                <li>Planning</li>
+                            </ul>
+                        </div>
+                        <div class="workflow-card">
+                            <h3>Afternoon</h3>
+                            <ul>
+                                <li>Deep creative work</li>
+                                <li>Main project execution</li>
+                            </ul>
+                        </div>
+                        <div class="workflow-card">
+                            <h3>Evening</h3>
+                            <ul>
+                                <li>Revisions</li>
+                                <li>Exports</li>
+                                <li>Deliveries</li>
+                                <li>Content scheduling</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- File Naming Convention -->
+            <section class="file-naming">
+                <div class="container container-narrow">
+                    <div class="naming-box">
+                        <h3>File Naming Convention</h3>
+                        <p class="naming-format">CLIENTNAME_PROJECTNAME_VERSION_DATE</p>
+                        <p class="naming-example">Example: KINGSCAFE_MENU_V2_2026</p>
+                        <p>This ensures organization, traceability, and professional delivery.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <p class="footer-copyright">© 2026 Carlosuite | AdVista Creations — Founder: Charles Katete</p>
+                    <p class="footer-philosophy">Systems before scaling. Professionalism before popularity.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
